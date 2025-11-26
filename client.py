@@ -20,9 +20,9 @@ class MultiServerClient:
         
     async def connect(self):
         servers = {
-            "github": StdioServerParameters(command="python", args=["mcp1/server_github.py"]),
-            "mslearn": StdioServerParameters(command="python", args=["mcp1/server_mslearn.py"]),
-            "filesystem": StdioServerParameters(command="python", args=["mcp1/server_filesystem.py"])
+            "github": StdioServerParameters(command="python", args=["server_github.py"]),
+            "mslearn": StdioServerParameters(command="python", args=["server_mslearn.py"]),
+            "filesystem": StdioServerParameters(command="python", args=["server_filesystem.py"])
         }
         
         print("Connecting to MCP servers...")

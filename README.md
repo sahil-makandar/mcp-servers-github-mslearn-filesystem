@@ -60,7 +60,7 @@ A **production-ready** MCP client that connects to multiple MCP servers simultan
 
 3. **Run the client**:
    ```bash
-   python mcp1/client.py
+   python client.py
    ```
 
 ## Usage Examples
@@ -145,16 +145,6 @@ data/
 ✅ **OpenAI function calling** (native tools parameter)  
 ✅ **Automatic tool routing** (client finds correct server for each tool)
 
-## Advantages Over Demo
-
-| Feature | Demo (HTTP) | This (MCP) |
-|---------|-------------|------------|
-| Protocol | Custom REST | JSON-RPC 2.0 |
-| Transport | HTTP | stdio |
-| Multiple Servers | ❌ | ✅ 3 servers |
-| AI Integration | String parsing | Function calling |
-| Tool Routing | Manual | Automatic |
-| Production Ready | ❌ | ✅ |
 
 ## Extending
 
