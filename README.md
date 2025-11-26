@@ -1,4 +1,6 @@
-# Multi-Server MCP Implementation
+# Multi-Server MCP Implementation (Github MCP, MS Learn MCP, FileSystem MCP, Azure OpenAI)
+
+MCP servers for GitHub, Microsoft Learn, and filesystem with Azure OpenAI - Multi-server Model Context Protocol implementation
 
 A **production-ready** MCP client that connects to multiple MCP servers simultaneously:
 - 🐙 **GitHub Server**: Search repos, get repo info, trending repos
